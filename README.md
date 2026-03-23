@@ -44,3 +44,35 @@ there is too much details but im gonna use random ones
 2. Content security policy (CSP) Headernot set : <img width="743" height="272" alt="image" src="https://github.com/user-attachments/assets/396fb055-e906-403f-b37a-d9aeabc95a25" />
 Risk Level : medium CWE ID :693 WASC ID : 15
 
+-----------------------------------------------------------------------------------------------------
+# nikto-wapiti-scanning
+
+## 
+The Nikto + Wapiti web vulnerability scanning lab where I performed comprehensive server-side and application-layer security testing. Used Nikto for web server misconfigurations and outdated software detection, combined with Wapiti's black-box injection testing to identify SQLi, XSS, file disclosure, and other OWASP Top 10 vulnerabilities.
+
+------------------------------------------------------------------------------------------------------
+## Skills Learned :- 
+
+Web server vulnerability scanning (outdated software, misconfigurations)
+
+Black-box application testing (SQL injection, XSS, file disclosure, SSRF)
+
+Server fingerprinting and version-specific vulnerability detection
+
+Multi-tool correlation for vulnerability validation
+
+Web security assessment reporting combining server + application findings
+------------------------------------------------------------------------------------------------------
+## Tools Used
+
+Nikto - Web server scanner for 6,700+ known vulnerabilities and misconfigurations
+
+Wapiti - Black-box web vulnerability scanner for injection flaws and file issues
+
+Combined reporting - Server + application vulnerability correlation
+
+Kali Linux - Testing environment with pre-installed scanning tools
+-----------------------------------------------------------------------------------------------------
+## Steps taken : 
+
+
