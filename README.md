@@ -74,5 +74,15 @@ Combined reporting - Server + application vulnerability correlation
 Kali Linux - Testing environment with pre-installed scanning tools
 -----------------------------------------------------------------------------------------------------
 ## Steps taken : 
+starting with  nitko i used this command line : nikto -h dvwa.structureality.com -output nikto-scan.txt 
+after it finished i tried to look for something like this : 
+<img width="1247" height="735" alt="image" src="https://github.com/user-attachments/assets/855feb02-e3dd-42b0-b64c-a0bf0490e90e" />
+
+
+
+for wapiti i used this command line : wapiti -u http://dvwa.structureality.com -f txt , and this is the summary :
+<img width="1233" height="545" alt="image" src="https://github.com/user-attachments/assets/d84e176b-53b8-4075-96b8-b1d2e6f7185d" />
+as we can see in vulnerabilites list we have 4 http secure headers and 1 content security policy configiration 
+
 
 
